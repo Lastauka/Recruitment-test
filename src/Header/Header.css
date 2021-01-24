@@ -1,0 +1,70 @@
+.header {
+    margin-bottom: 50px;
+    width: 100vw;
+    background-color: rgb(245, 245, 245);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+.heading {
+    font-size: 1.5em;
+    color: #000;
+}
+.heading::after {
+    content: "_";
+}
+
+.heading:hover::after {
+    margin-left: 5px;
+    content: "_";
+    transition: .5s;
+}
+
+.headingName {
+    color: rgb(37, 80, 170);
+    font-weight: 800;
+}
+
+.heart {
+    margin-right: 20px;
+    font-size: 2.2em;
+    color: rgb(37, 80, 170);
+    position: relative;
+}
+
+.heart:hover {
+    color: #666;
+    transition: .5s;
+}
+
+.notification {
+    top: -10px;
+    right: -15px;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(37, 80, 170);
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    font-size: .3em;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}

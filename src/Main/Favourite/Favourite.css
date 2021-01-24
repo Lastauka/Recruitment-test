@@ -1,0 +1,53 @@
+.posts {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.post {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.postTitle {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+.postTitle:hover {
+    text-decoration: underline;
+}
+
+.postBody {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.postMore {
+    color: rgb(37, 80, 170);
+    font-size: .8em;
+    font-weight: 300;
+}
+
+.postMore:hover {
+    font-weight: 500;
+}
+.noArticles {
+    color: #000;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.postDelete {
+    cursor: pointer;
+    margin-top: 15px;
+    color: #666;
+    font-size: .8em;
+}
