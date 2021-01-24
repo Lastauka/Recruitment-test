@@ -16,7 +16,7 @@ const Header = () => {
                 <Router>
                     <Link to="/">
                         <h1 className={styles.heading}>
-                            <span className={styles.headingName}>Landingi</span><br />
+                            <span className={styles.headingName}>Lastauka</span><br />
                         recruitment<br />task
                     </h1>
                     </Link>

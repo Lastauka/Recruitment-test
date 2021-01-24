@@ -1,12 +1,12 @@
 {
-  "name": "Landingi-Recruitment-Task",
+  "name": "Lastauka-Recruitment-Task",
   "version": "1.0.0",
-  "description": "Recruitment task for Landingi.",
+  "description": "Recruitment task",
   "scripts": {
     "start": "webpack-dev-server --hot -d",
     "build": "webpack -p"
   },
-  "author": "Jarosław Kucharski",
+  "author": "Lastauka",
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/plugin-proposal-class-properties": "^7.10.1",
